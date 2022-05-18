@@ -1,8 +1,8 @@
 <template>
     <div id="navbar" class="h-20 w-full bg-green-500 text-white flex justify-between items-center px-12 font-poppins">
-        <div>
-            <img src="#" alt="">
-            <span class="font-bold text-xl">HMP Kelamas</span> 
+        <div class="flex gap-4 items-center">
+            <img src="../assets/img/kelamas.png" alt="" class="h-10">
+            <p class="font-bold text-xl">HMP Kelamas</p> 
         </div>
         <ul class="text-lg font-medium flex gap-8 items-center">
             <li><router-link to="/" class="flex gap-2"><i class="bi bi-house"></i>Home</router-link></li>
