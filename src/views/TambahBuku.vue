@@ -2,7 +2,8 @@
     <div id="tambah-buku">
         <form>
             <div>
-                <label for=""></label>
+                <label for="kategori">Kategori Buku</label>
+                <input type="text" name="kategori" id="kategori" placeholder="Kategori Buku ...">
             </div>
         </form>
     </div>
